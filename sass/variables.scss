@@ -1,3 +1,15 @@
 /* -------------- Variables --------------  */
 
 $h1-color: #ff33f9;
+
+// 1. Define bond badge color map
+$bond-badge-types: (
+  'success': (#28A745, rgba(40, 167, 69, 0.1)),
+  'danger': (#a32100, rgba(220, 53, 69, 0.1)),
+  'pending': (#FFC107, rgba(255, 193, 7, 0.1)),
+  'created': (#007BFF, rgba(0, 123, 255, 0.1)),
+  'updated': (#FD7E14, rgba(253, 126, 20, 0.1)),
+  'int-created': (#6F42C1, rgba(102, 16, 242, 0.1)),
+  'leg-created': (#17A2B8, rgba(23, 162, 184, 0.1)),
+  'dhcp-created': (#0056B3, rgba(0, 86, 179, 0.1)),
+);

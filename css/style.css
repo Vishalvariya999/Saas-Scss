@@ -1,3 +1,5 @@
+/* -------------- Variables --------------  */
+/* -------------- Common Code Or Functions --------------  */
 * {
   margin: 0;
   padding: 0; }
@@ -11,15 +13,85 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 16px; }
 
-p {
-  color: #ff33f9;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold; }
-
 a {
   color: #ff33f9;
   letter-spacing: 2px;
   text-transform: capitalize;
   font-family: sans-serif; }
+
+.badge {
+  font-size: 0.8rem !important;
+  line-height: 20px !important;
+  min-height: 20px !important;
+  min-width: 20px !important;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  display: inline-block !important;
+  padding: 0 7px !important;
+  border-radius: 0.75rem !important; }
+
+.badge-light-success {
+  background: rgba(40, 167, 69, 0.1) !important;
+  color: #28A745 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-danger {
+  background: rgba(220, 53, 69, 0.1) !important;
+  color: #a32100 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-pending {
+  background: rgba(255, 193, 7, 0.1) !important;
+  color: #FFC107 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-created {
+  background: rgba(0, 123, 255, 0.1) !important;
+  color: #007BFF !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-updated {
+  background: rgba(253, 126, 20, 0.1) !important;
+  color: #FD7E14 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-int-created {
+  background: rgba(102, 16, 242, 0.1) !important;
+  color: #6F42C1 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-leg-created {
+  background: rgba(23, 162, 184, 0.1) !important;
+  color: #17A2B8 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }
+
+.badge-light-dhcp-created {
+  background: rgba(0, 86, 179, 0.1) !important;
+  color: #0056B3 !important;
+  border: none !important;
+  min-width: 58px !important;
+  border-radius: 10px;
+  font-weight: 500 !important; }

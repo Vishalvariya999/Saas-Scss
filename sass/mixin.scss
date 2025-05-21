@@ -5,3 +5,13 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
+// 2. Mixin for badge styles
+@mixin badge($textColor, $bgColor) {
+    background: $bgColor !important;
+    color: $textColor !important;
+    border: none !important;
+    min-width: 58px !important;
+    border-radius: 10px;
+    font-weight: 500 !important;
+  }
